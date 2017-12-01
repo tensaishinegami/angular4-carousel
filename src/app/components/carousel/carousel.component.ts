@@ -74,7 +74,7 @@ export class CarouselComponent implements OnInit, OnDestroy {
       this.currentSlide = this.currentSlide === this.loadedImages.length - 1 ? 0 : ++this.currentSlide;
     }
     this.carouselHandlerDirective.setNewSlide(this.currentSlide, direction);
-    this.disableCarouselNavBtns();
+//     this.disableCarouselNavBtns();
   }
 
   public onChangeSlideIndex(index: number): void {
@@ -86,7 +86,7 @@ export class CarouselComponent implements OnInit, OnDestroy {
 
     this.currentSlide = index;
     this.carouselHandlerDirective.setNewSlide(this.currentSlide, direction);
-    this.disableCarouselNavBtns();
+//     this.disableCarouselNavBtns();
   }
 
   public onHandleAutoplay(stopAutoplay): void {
