@@ -10,7 +10,7 @@
 
   &--left {
     right: auto;
-    left: 0;
+    left: -10px;
 
     &:hover .carousel-nav__btn--left {
       color: rgba(255, 255, 255, 0.8);
@@ -19,7 +19,7 @@
 
   &--right {
     left: auto;
-    right: 0;
+    right: -10px;
 
     &:hover .carousel-nav__btn--right {
       color: rgba(255, 255, 255, 0.8);
